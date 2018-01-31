@@ -1,0 +1,187 @@
+* {
+  font-family: "Montserrat";
+  letter-spacing: 0.3em;
+}
+
+header, footer {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.background {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+}
+
+/************* Header Styles ************/
+
+.flex-container, .footer-container {
+  height: 6vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+.grey-rectangle {
+  height: 100%;
+  width: 10%;
+  background-color: #bdbcbc;
+  margin: 0;
+}
+
+.aqua-box, .footer-aqua-box {
+  height: 100%;
+  width: 60%;
+  background-color: #4f7f76;
+}
+
+/************* Main Styles ************/
+
+/**** Top Text ****/
+.text-wrapper {
+  background-color: #ffffff;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: auto;
+}
+
+.text-header {
+  color: #456e77;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 6em;
+}
+
+.text-content {
+  margin-top: 2em;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #464646;
+}
+
+
+
+/**** Main Text ****/
+
+.text-center {
+  text-align: center;
+}
+
+.top-title, .bottom-title {
+  background-color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 700;
+  color: #64899f;
+  font-size: 2em;
+  padding: 0.7em;
+}
+
+.bottom-title {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 0;
+}
+
+
+.main-wrapper {
+  display: inline-block;
+  margin-top: 2em;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  display: inline-block;
+  font-size: 6em;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0.5em 0.7em;
+  border: 8px solid #ffffff;
+  padding: 0.5em;
+}
+
+.address {
+  background-color: #456e77;
+  text-align: center;
+  display: inline-block;
+  margin-top: -3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 2.5em;
+  padding: 0.7em 5em;
+}
+
+.white-filler {
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+
+.numbers {
+  background-color: #4f7f76;
+  text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 4em;
+  padding: 0.2em 3em;
+}
+
+.primary {
+  margin-right: 10%;
+}
+
+.secondary {
+  margin-left: 10%;
+}
+
+/************* Footer Styles ************/
+
+.smile {
+
+}
+
+.footer-container {
+  height: 20vh;
+}
+
+.footer-aqua-box {
+  align-self: flex-end;
+  height: 40%;
+  text-align: center;
+}
+
+.footer-aqua-box h3 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  letter-spacing: 0.2em;
+}
+
+.smile {
+  width: 120px;
+  height: 120px;
+  margin-top: 2em;
+  margin-bottom: -6vh;
+}
